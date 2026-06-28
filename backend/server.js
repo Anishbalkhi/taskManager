@@ -11,7 +11,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:5173',
-    'https://task-manager-4wii.vercel.app/'
+    'https://task-manager-4wii.vercel.app'
   ]
 }));
 app.use(express.json());
